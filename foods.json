@@ -1,0 +1,771 @@
+{
+  "foods" : [
+    {
+      "calories" : 450,
+      "carbs" : 55,
+      "contains" : "egg anchovy fish peanut coconut",
+      "diet" : "meat",
+      "fat" : 20,
+      "halal" : true,
+      "meals" : [
+        "breakfast",
+        "teaTime"
+      ],
+      "name" : "Nasi lemak bungkus (egg, sambal, ikan bilis)",
+      "order" : "\"Nasi lemak biasa, sambal lebih\", which is the small packet",
+      "place" : "Warung, kopitiam or roadside stall",
+      "priceRM" : 4,
+      "protein" : 12
+    },
+    {
+      "calories" : 750,
+      "carbs" : 70,
+      "contains" : "chicken egg anchovy fish peanut coconut",
+      "diet" : "meat",
+      "fat" : 38,
+      "halal" : true,
+      "meals" : [
+        "lunch",
+        "dinner"
+      ],
+      "name" : "Nasi lemak with ayam goreng",
+      "order" : "\"Nasi separuh, ayam goreng\", and leave some of the skin",
+      "place" : "Nasi lemak stall or mamak",
+      "priceRM" : 10,
+      "protein" : 32
+    },
+    {
+      "calories" : 700,
+      "carbs" : 68,
+      "contains" : "beef egg anchovy fish peanut coconut",
+      "diet" : "meat",
+      "fat" : 35,
+      "halal" : true,
+      "meals" : [
+        "lunch",
+        "dinner"
+      ],
+      "name" : "Nasi lemak with rendang",
+      "order" : "\"Nasi separuh, rendang\" with extra timun",
+      "place" : "Nasi lemak stall or warung",
+      "priceRM" : 11,
+      "protein" : 28
+    },
+    {
+      "calories" : 360,
+      "carbs" : 45,
+      "contains" : "wheat gluten dairy ghee",
+      "diet" : "vegetarian",
+      "fat" : 16,
+      "halal" : true,
+      "meals" : [
+        "breakfast",
+        "teaTime",
+        "supper"
+      ],
+      "name" : "Roti canai with dhal (1 piece)",
+      "order" : "\"Roti kosong, kuah dhal\", as dhal is the lightest gravy",
+      "place" : "Mamak",
+      "priceRM" : 2.5,
+      "protein" : 8
+    },
+    {
+      "calories" : 450,
+      "carbs" : 46,
+      "contains" : "egg wheat gluten dairy ghee",
+      "diet" : "vegetarian",
+      "fat" : 23,
+      "halal" : true,
+      "meals" : [
+        "breakfast",
+        "supper"
+      ],
+      "name" : "Roti telur with dhal",
+      "order" : "\"Roti telur, kuah dhal\"",
+      "place" : "Mamak",
+      "priceRM" : 3.5,
+      "protein" : 14
+    },
+    {
+      "calories" : 220,
+      "carbs" : 38,
+      "contains" : "lentil rice",
+      "diet" : "vegan",
+      "fat" : 5,
+      "halal" : true,
+      "meals" : [
+        "breakfast",
+        "teaTime",
+        "supper"
+      ],
+      "name" : "Thosai with chutney (1 piece)",
+      "order" : "\"Thosai kosong\" with dhal and chutney",
+      "place" : "Mamak or Indian restaurant",
+      "priceRM" : 3,
+      "protein" : 6
+    },
+    {
+      "calories" : 400,
+      "carbs" : 38,
+      "contains" : "egg wheat gluten dairy coconut",
+      "diet" : "vegetarian",
+      "fat" : 20,
+      "halal" : true,
+      "meals" : [
+        "breakfast",
+        "teaTime"
+      ],
+      "name" : "Roti bakar kaya butter + 2 half-boiled eggs",
+      "order" : "\"Roti bakar, telur separuh masak\" and ask for less butter",
+      "place" : "Kopitiam",
+      "priceRM" : 7,
+      "protein" : 16
+    },
+    {
+      "calories" : 900,
+      "carbs" : 95,
+      "contains" : "chicken curry",
+      "diet" : "meat",
+      "fat" : 40,
+      "halal" : true,
+      "meals" : [
+        "lunch",
+        "dinner"
+      ],
+      "name" : "Nasi kandar (rice, chicken, mixed curry)",
+      "order" : "\"Nasi suku, kuah asing\", so the gravy doesn't flood the rice",
+      "place" : "Nasi kandar restaurant",
+      "priceRM" : 15,
+      "protein" : 38
+    },
+    {
+      "calories" : 650,
+      "carbs" : 75,
+      "contains" : "chicken fish vegetable",
+      "diet" : "meat",
+      "fat" : 25,
+      "halal" : true,
+      "meals" : [
+        "lunch",
+        "dinner"
+      ],
+      "name" : "Nasi campur (rice, 1 meat, 2 veg)",
+      "order" : "\"Nasi sikit\", then point at one protein and two vegetables",
+      "place" : "Warung nasi campur",
+      "priceRM" : 10,
+      "protein" : 28
+    },
+    {
+      "calories" : 600,
+      "carbs" : 72,
+      "contains" : "pork chicken fish vegetable soy",
+      "diet" : "meat",
+      "fat" : 22,
+      "halal" : false,
+      "meals" : [
+        "lunch",
+        "dinner"
+      ],
+      "name" : "Economy rice (rice, 1 meat, 2 veg)",
+      "order" : "\"Less rice\", steamed fish or tofu, and two green vegetables",
+      "place" : "Economy rice shop",
+      "priceRM" : 10,
+      "protein" : 26
+    },
+    {
+      "calories" : 620,
+      "carbs" : 70,
+      "contains" : "chicken soy",
+      "diet" : "meat",
+      "fat" : 23,
+      "halal" : false,
+      "meals" : [
+        "lunch",
+        "dinner"
+      ],
+      "name" : "Chicken rice (roasted, 1 plate)",
+      "order" : "\"Steamed chicken, less rice\", and leave the skin",
+      "place" : "Chicken rice stall",
+      "priceRM" : 9,
+      "protein" : 30
+    },
+    {
+      "calories" : 640,
+      "carbs" : 80,
+      "contains" : "egg anchovy fish",
+      "diet" : "meat",
+      "fat" : 26,
+      "halal" : true,
+      "meals" : [
+        "lunch",
+        "dinner",
+        "supper"
+      ],
+      "name" : "Nasi goreng kampung",
+      "order" : "\"Kurang minyak\", with extra sayur",
+      "place" : "Warung or tomyam stall",
+      "priceRM" : 8,
+      "protein" : 18
+    },
+    {
+      "calories" : 800,
+      "carbs" : 75,
+      "contains" : "chicken tofu soy",
+      "diet" : "meat",
+      "fat" : 38,
+      "halal" : true,
+      "meals" : [
+        "dinner"
+      ],
+      "name" : "Nasi ayam penyet",
+      "order" : "\"Nasi separuh\", and go easy on the fried crumbs",
+      "place" : "Indonesian or penyet restaurant",
+      "priceRM" : 14,
+      "protein" : 38
+    },
+    {
+      "calories" : 550,
+      "carbs" : 62,
+      "contains" : "fish",
+      "diet" : "meat",
+      "fat" : 16,
+      "halal" : true,
+      "meals" : [
+        "lunch",
+        "dinner"
+      ],
+      "name" : "Ikan bakar with rice and ulam",
+      "order" : "\"Ikan bakar, nasi sikit\", with extra ulam and sambal on the side",
+      "place" : "Ikan bakar stall or warung",
+      "priceRM" : 15,
+      "protein" : 35
+    },
+    {
+      "calories" : 520,
+      "carbs" : 65,
+      "contains" : "seafood prawn fish chicken",
+      "diet" : "meat",
+      "fat" : 16,
+      "halal" : true,
+      "meals" : [
+        "lunch",
+        "dinner"
+      ],
+      "name" : "Tom yam with rice",
+      "order" : "\"Tom yam campur, sup jernih\", the clear version without santan",
+      "place" : "Thai-style tomyam stall",
+      "priceRM" : 12,
+      "protein" : 26
+    },
+    {
+      "calories" : 480,
+      "carbs" : 62,
+      "contains" : "chicken",
+      "diet" : "meat",
+      "fat" : 12,
+      "halal" : true,
+      "meals" : [
+        "lunch",
+        "dinner",
+        "supper"
+      ],
+      "name" : "Sup ayam with rice",
+      "order" : "\"Sup ayam, nasi sikit\"",
+      "place" : "Warung or mamak",
+      "priceRM" : 10,
+      "protein" : 28
+    },
+    {
+      "calories" : 740,
+      "carbs" : 78,
+      "contains" : "egg prawn seafood pork soy",
+      "diet" : "meat",
+      "fat" : 38,
+      "halal" : false,
+      "meals" : [
+        "lunch",
+        "dinner",
+        "supper"
+      ],
+      "name" : "Char kway teow",
+      "order" : "\"Kurang minyak\", and ask for extra taugeh",
+      "place" : "Hawker stall",
+      "priceRM" : 9,
+      "protein" : 22
+    },
+    {
+      "calories" : 660,
+      "carbs" : 85,
+      "contains" : "egg wheat gluten tofu soy",
+      "diet" : "meat",
+      "fat" : 27,
+      "halal" : true,
+      "meals" : [
+        "lunch",
+        "dinner",
+        "supper"
+      ],
+      "name" : "Mee goreng mamak",
+      "order" : "\"Kurang minyak, tambah sayur\"",
+      "place" : "Mamak",
+      "priceRM" : 7,
+      "protein" : 18
+    },
+    {
+      "calories" : 620,
+      "carbs" : 70,
+      "contains" : "pork prawn seafood wheat gluten soy",
+      "diet" : "meat",
+      "fat" : 27,
+      "halal" : false,
+      "meals" : [
+        "dinner",
+        "supper"
+      ],
+      "name" : "Hokkien mee (KL style)",
+      "order" : "\"Small plate, less lard\"",
+      "place" : "Hawker stall",
+      "priceRM" : 10,
+      "protein" : 22
+    },
+    {
+      "calories" : 420,
+      "carbs" : 58,
+      "contains" : "pork egg wheat gluten soy",
+      "diet" : "meat",
+      "fat" : 13,
+      "halal" : false,
+      "meals" : [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "name" : "Wantan mee (dry)",
+      "order" : "\"Wantan mee kering\", with extra sayur",
+      "place" : "Kopitiam",
+      "priceRM" : 8,
+      "protein" : 18
+    },
+    {
+      "calories" : 590,
+      "carbs" : 55,
+      "contains" : "coconut prawn seafood chicken tofu soy",
+      "diet" : "meat",
+      "fat" : 31,
+      "halal" : false,
+      "meals" : [
+        "lunch",
+        "dinner"
+      ],
+      "name" : "Curry laksa",
+      "order" : "\"Kurang kuah\", because the santan sits in the gravy",
+      "place" : "Kopitiam or hawker stall",
+      "priceRM" : 10,
+      "protein" : 22
+    },
+    {
+      "calories" : 430,
+      "carbs" : 72,
+      "contains" : "fish",
+      "diet" : "meat",
+      "fat" : 6,
+      "halal" : true,
+      "meals" : [
+        "lunch",
+        "teaTime",
+        "dinner"
+      ],
+      "name" : "Penang asam laksa",
+      "order" : "\"Asam laksa\", which is already one of the lighter noodle choices",
+      "place" : "Hawker stall or laksa shop",
+      "priceRM" : 9,
+      "protein" : 20
+    },
+    {
+      "calories" : 480,
+      "carbs" : 72,
+      "contains" : "egg wheat gluten tofu soy peanut",
+      "diet" : "meat",
+      "fat" : 14,
+      "halal" : true,
+      "meals" : [
+        "breakfast",
+        "lunch"
+      ],
+      "name" : "Mee rebus",
+      "order" : "\"Mee rebus, kuah sikit\"",
+      "place" : "Warung or Malay stall",
+      "priceRM" : 7,
+      "protein" : 16
+    },
+    {
+      "calories" : 340,
+      "carbs" : 50,
+      "contains" : "chicken wheat gluten",
+      "diet" : "meat",
+      "fat" : 7,
+      "halal" : true,
+      "meals" : [
+        "breakfast",
+        "lunch",
+        "dinner",
+        "supper"
+      ],
+      "name" : "Mee sup",
+      "order" : "\"Mee sup ayam\"",
+      "place" : "Warung or mamak",
+      "priceRM" : 7,
+      "protein" : 18
+    },
+    {
+      "calories" : 480,
+      "carbs" : 65,
+      "contains" : "pork anchovy fish egg wheat gluten",
+      "diet" : "meat",
+      "fat" : 14,
+      "halal" : false,
+      "meals" : [
+        "lunch",
+        "dinner"
+      ],
+      "name" : "Pan mee (soup)",
+      "order" : "\"Pan mee soup\" rather than the dry chilli version",
+      "place" : "Pan mee shop or kopitiam",
+      "priceRM" : 9,
+      "protein" : 22
+    },
+    {
+      "calories" : 470,
+      "carbs" : 50,
+      "contains" : "fish dairy",
+      "diet" : "meat",
+      "fat" : 17,
+      "halal" : false,
+      "meals" : [
+        "lunch",
+        "dinner"
+      ],
+      "name" : "Fish head noodles",
+      "order" : "\"Clear soup, no evaporated milk\"",
+      "place" : "Fish head noodle stall",
+      "priceRM" : 12,
+      "protein" : 28
+    },
+    {
+      "calories" : 320,
+      "carbs" : 28,
+      "contains" : "tofu soy fish",
+      "diet" : "meat",
+      "fat" : 13,
+      "halal" : false,
+      "meals" : [
+        "lunch",
+        "teaTime",
+        "dinner"
+      ],
+      "name" : "Yong tau foo soup (6 pieces)",
+      "order" : "Pick tofu, vegetables and fish paste, and skip the fried pieces",
+      "place" : "Yong tau foo stall",
+      "priceRM" : 9,
+      "protein" : 22
+    },
+    {
+      "calories" : 700,
+      "carbs" : 62,
+      "contains" : "pork soy",
+      "diet" : "meat",
+      "fat" : 32,
+      "halal" : false,
+      "meals" : [
+        "lunch",
+        "dinner"
+      ],
+      "name" : "Bak kut teh with rice",
+      "order" : "Ask for lean cuts and a small rice",
+      "place" : "Bak kut teh shop",
+      "priceRM" : 18,
+      "protein" : 40
+    },
+    {
+      "calories" : 650,
+      "carbs" : 80,
+      "contains" : "chicken pork soy",
+      "diet" : "meat",
+      "fat" : 22,
+      "halal" : false,
+      "meals" : [
+        "dinner"
+      ],
+      "name" : "Claypot chicken rice",
+      "order" : "\"Small, less oil\"",
+      "place" : "Claypot stall",
+      "priceRM" : 13,
+      "protein" : 30
+    },
+    {
+      "calories" : 300,
+      "carbs" : 52,
+      "contains" : "soy prawn seafood",
+      "diet" : "meat",
+      "fat" : 7,
+      "halal" : false,
+      "meals" : [
+        "breakfast",
+        "teaTime"
+      ],
+      "name" : "Chee cheong fun (2 rolls with sauce)",
+      "order" : "\"Sauce on the side\"",
+      "place" : "Kopitiam or morning market",
+      "priceRM" : 5,
+      "protein" : 6
+    },
+    {
+      "calories" : 320,
+      "carbs" : 14,
+      "contains" : "chicken beef peanut",
+      "diet" : "meat",
+      "fat" : 19,
+      "halal" : true,
+      "meals" : [
+        "teaTime",
+        "dinner",
+        "supper"
+      ],
+      "name" : "Satay (5 sticks with kuah)",
+      "order" : "\"Lima cucuk\", with cucumber and onion",
+      "place" : "Satay stall",
+      "priceRM" : 8,
+      "protein" : 24
+    },
+    {
+      "calories" : 500,
+      "carbs" : 40,
+      "contains" : "beef egg wheat gluten",
+      "diet" : "meat",
+      "fat" : 28,
+      "halal" : true,
+      "meals" : [
+        "supper"
+      ],
+      "name" : "Burger Ramly (beef, with egg)",
+      "order" : "\"Kurang sos, kurang mayo\"",
+      "place" : "Ramly burger stall",
+      "priceRM" : 6,
+      "protein" : 22
+    },
+    {
+      "calories" : 650,
+      "carbs" : 105,
+      "contains" : "lentil vegetable dairy ghee",
+      "diet" : "vegetarian",
+      "fat" : 18,
+      "halal" : true,
+      "meals" : [
+        "lunch",
+        "dinner"
+      ],
+      "name" : "Vegetarian banana leaf rice",
+      "order" : "\"Nasi sikit\", with extra vegetables and dhal",
+      "place" : "Indian banana leaf restaurant",
+      "priceRM" : 11,
+      "protein" : 16
+    },
+    {
+      "calories" : 550,
+      "carbs" : 82,
+      "contains" : "tofu soy vegetable",
+      "diet" : "vegan",
+      "fat" : 16,
+      "halal" : false,
+      "meals" : [
+        "lunch",
+        "dinner"
+      ],
+      "name" : "Vegetarian mixed rice",
+      "order" : "\"Less rice\", tofu or tempeh, and two vegetables",
+      "place" : "Vegetarian restaurant",
+      "priceRM" : 9,
+      "protein" : 18
+    },
+    {
+      "calories" : 420,
+      "carbs" : 66,
+      "contains" : "wheat gluten lentil",
+      "diet" : "vegan",
+      "fat" : 11,
+      "halal" : true,
+      "meals" : [
+        "lunch",
+        "dinner",
+        "supper"
+      ],
+      "name" : "Capati with dhal (2 pieces)",
+      "order" : "\"Capati dua, kuah dhal\", which uses little oil",
+      "place" : "Mamak or Indian restaurant",
+      "priceRM" : 6,
+      "protein" : 14
+    },
+    {
+      "calories" : 150,
+      "carbs" : 17,
+      "contains" : "wheat gluten potato",
+      "diet" : "meat",
+      "fat" : 8,
+      "halal" : true,
+      "meals" : [
+        "teaTime"
+      ],
+      "name" : "Curry puff (1 piece)",
+      "order" : "",
+      "place" : "Kuih stall",
+      "priceRM" : 1.5,
+      "protein" : 3
+    },
+    {
+      "calories" : 230,
+      "carbs" : 34,
+      "contains" : "banana wheat gluten",
+      "diet" : "vegetarian",
+      "fat" : 10,
+      "halal" : true,
+      "meals" : [
+        "teaTime"
+      ],
+      "name" : "Pisang goreng (2 pieces)",
+      "order" : "Eat it fresh and skip the sweet dips",
+      "place" : "Goreng pisang stall",
+      "priceRM" : 2,
+      "protein" : 2
+    },
+    {
+      "calories" : 200,
+      "carbs" : 34,
+      "contains" : "coconut",
+      "diet" : "vegetarian",
+      "fat" : 6,
+      "halal" : true,
+      "meals" : [
+        "teaTime"
+      ],
+      "name" : "Kuih (2 pieces)",
+      "order" : "Choose steamed kuih over fried",
+      "place" : "Kuih stall",
+      "priceRM" : 2.5,
+      "protein" : 2
+    },
+    {
+      "calories" : 380,
+      "carbs" : 62,
+      "contains" : "coconut",
+      "diet" : "meat",
+      "fat" : 14,
+      "halal" : true,
+      "meals" : [
+
+      ],
+      "name" : "Cendol",
+      "order" : "",
+      "place" : "",
+      "priceRM" : 0,
+      "protein" : 3
+    },
+    {
+      "calories" : 300,
+      "carbs" : 62,
+      "contains" : "peanut dairy",
+      "diet" : "meat",
+      "fat" : 4,
+      "halal" : true,
+      "meals" : [
+
+      ],
+      "name" : "ABC / ais kacang",
+      "order" : "",
+      "place" : "",
+      "priceRM" : 0,
+      "protein" : 4
+    },
+    {
+      "calories" : 140,
+      "carbs" : 23,
+      "contains" : "dairy",
+      "diet" : "meat",
+      "fat" : 4,
+      "halal" : true,
+      "meals" : [
+
+      ],
+      "name" : "Teh tarik",
+      "order" : "",
+      "place" : "",
+      "priceRM" : 0,
+      "protein" : 3
+    },
+    {
+      "calories" : 130,
+      "carbs" : 22,
+      "contains" : "dairy",
+      "diet" : "meat",
+      "fat" : 4,
+      "halal" : true,
+      "meals" : [
+
+      ],
+      "name" : "Kopi (with condensed milk)",
+      "order" : "",
+      "place" : "",
+      "priceRM" : 0,
+      "protein" : 2
+    },
+    {
+      "calories" : 5,
+      "carbs" : 1,
+      "contains" : "",
+      "diet" : "meat",
+      "fat" : 0,
+      "halal" : true,
+      "meals" : [
+
+      ],
+      "name" : "Teh O / Kopi O kosong",
+      "order" : "",
+      "place" : "",
+      "priceRM" : 0,
+      "protein" : 0
+    },
+    {
+      "calories" : 200,
+      "carbs" : 34,
+      "contains" : "dairy",
+      "diet" : "meat",
+      "fat" : 5,
+      "halal" : true,
+      "meals" : [
+
+      ],
+      "name" : "Milo ais",
+      "order" : "",
+      "place" : "",
+      "priceRM" : 0,
+      "protein" : 4
+    },
+    {
+      "calories" : 190,
+      "carbs" : 36,
+      "contains" : "dairy",
+      "diet" : "meat",
+      "fat" : 4,
+      "halal" : true,
+      "meals" : [
+
+      ],
+      "name" : "Sirap bandung",
+      "order" : "",
+      "place" : "",
+      "priceRM" : 0,
+      "protein" : 2
+    }
+  ],
+  "updated" : "2026-11-06",
+  "version" : 1
+}
